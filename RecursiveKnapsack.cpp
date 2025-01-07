@@ -1,8 +1,6 @@
 #include <bits/stdc++.h>
 #include <vector>
 
-using namespace std;
-
 int knapsack(int N, int W, int arr[][2], std::vector<std::vector<int>> &memo);
 
 int main()
