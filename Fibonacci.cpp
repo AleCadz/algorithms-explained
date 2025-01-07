@@ -35,9 +35,9 @@ unsigned long long int fibonacci(int N, mapInt &memo)
 # 1) We first check if N is in our memo (an unordered_map). If it is, we return the stored value.
 # 2) If not, we recursively compute fibonacci(N - 1) and fibonacci(N - 2), store the sum in our memo, then return it.
 # 3) Base Cases:
-#    - When N == 0 the function returns 0
-#    - When N == 1 the function returns 1
+#   - When N == 0 the function returns 0
+#   - When N == 1 the function returns 1
 # Time Complexity:
-#    - Each state is computed once and stored in the memo. Consequently, the time complexity is O(N).
+#   - Each state is computed once and stored in the memo. Consequently, the time complexity is O(N).
 # --------------------------------------------------
 */
